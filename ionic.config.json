@@ -1,5 +1,7 @@
 {
   "name": "helim",
-  "integrations": {},
+  "integrations": {
+    "capacitor": {}
+  },
   "type": "angular"
 }

@@ -1,27 +1,24 @@
-#container {
-  text-align: center;
-
-  position: absolute;
-  left: 0;
-  right: 0;
-  top: 50%;
-  transform: translateY(-50%);
+.nav {
+  // --background: #25D366;
+  --color: #fff;
+  --background: transparent;
+  display: none;
 }
-
-#container strong {
-  font-size: 20px;
-  line-height: 26px;
+ion-menu-button{
+  --color:white !important;
+  color:white !important;
 }
-
-#container p {
-  font-size: 16px;
-  line-height: 22px;
-
-  color: #8c8c8c;
-
-  margin: 0;
+ion-menu-buttons{
+  --color:white !important;
+  color:white !important;
 }
-
-#container a {
-  text-decoration: none;
+.map-container {
+  width: 100%;
+  height: 100%;
+  display: inline-block;
+}
+capacitor-google-map {
+  display: block;
+  width: 100%;
+  height: 100%;
 }
